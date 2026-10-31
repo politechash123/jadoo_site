@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <script>document.documentElement.classList.add("js")</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-i18n="meta.title">Jadoo — Travel, enjoy and live a new and full life</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Inder&family=Montserrat:wght@400;500;600;700&family=Noto+Sans+Armenian:wght@400;500;600;700&family=Noto+Serif+Armenian:wght@400;700&family=Open+Sans:wght@400&family=Playfair+Display:wght@400;700&family=Poppins:wght@400;500;600;700&family=Roboto:wght@400&family=Volkhov:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="page" id="top">
+
+  <!-- Hero -->
+  <section class="hero">
+    <img class="hero__blob" src="assets/hero-blob.png" alt="">
+    <img class="hero__ellipse" src="assets/hero-ellipse.svg" alt="">
+    <img class="hero__traveller" src="assets/traveller.png" alt="Traveller with a red suitcase" data-i18n-alt="hero.imgAlt">
+
+    <div class="hero__inner">
+    <header class="header">
+      <a class="header__logo" href="#top"><img src="assets/logo.svg" width="140" height="39" alt="Jadoo"></a>
+      <nav class="header__nav">
+        <a href="#destinations" data-i18n="nav.hotels">Hotels</a>
+        <a href="#services" class="header__nav-flights" data-i18n="nav.flights">Flights</a>
+        <a href="#steps" data-i18n="nav.bookings">Bookings</a>
+        <a href="#subscribe" data-i18n="nav.login">Login</a>
+        <a href="#subscribe" data-i18n="nav.signup">Sign up</a>
+        <div class="lang" role="group" aria-label="Language">
+          <button type="button" data-lang="en" aria-pressed="true">EN</button>
+          <button type="button" data-lang="ru" aria-pressed="false">RU</button>
+          <button type="button" data-lang="hy" aria-pressed="false">HY</button>
+        </div>
+      </nav>
+    </header>
+
+    <div class="hero__content">
+      <p class="hero__tagline" data-i18n="hero.tagline">Best Destinations around the world</p>
+      <h1 class="hero__title">
+        <img class="hero__underline" src="assets/underline.svg" alt="">
+        <span data-i18n="hero.title">Travel, enjoy<br>and live a new<br>and full life</span>
+      </h1>
+      <p class="hero__desc" data-i18n="hero.desc">Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the.</p>
+      <div class="hero__actions">
+        <a class="btn-find" href="#services" data-i18n="hero.find">Find out more</a>
+        <a class="btn-play" href="#destinations">
+          <span class="btn-play__circle"></span>
+          <span data-i18n="hero.play">Play Demo</span>
+        </a>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="services" id="services">
+    <p class="eyebrow" data-i18n="services.eyebrow">CATEGORY</p>
+    <h2 class="section-title" data-i18n="services.title">We Offer Best Services</h2>
+
+    <div class="services__row" data-reveal>
+      <article class="service service--weather">
+        <div class="service__art">
+          <span class="service__square" style="left:152px;top:0;--sq:#fba990"></span>
+          <img src="assets/weather.svg" alt="" style="left:49px;top:36px;width:172px;height:181px">
+        </div>
+        <h3 class="service__title" data-i18n="services.weather.title">Calculated Weather</h3>
+        <p class="service__desc" data-i18n="services.weather.desc">Built Wicket longer admire do barton vanity itself do in it.</p>
+      </article>
+
+      <article class="service service--flights">
+        <div class="service__art">
+          <span class="service__square" style="left:20px;top:89px;--sq:#ffd086"></span>
+          <img src="assets/plane.png" alt="" style="left:41px;top:113px;width:202px;height:109px">
+        </div>
+        <h3 class="service__title" data-i18n="services.flights.title">Best Fligts</h3>
+        <p class="service__desc" data-i18n="services.flights.desc"><span class="muted">Engrossed listening.</span> Park gate sell they west hard for the.</p>
+      </article>
+
+      <article class="service service--events">
+        <div class="service__art">
+          <span class="service__square" style="left:9px;top:29px;--sq:#fba990"></span>
+          <img src="assets/mic.png" alt="" style="left:79px;top:46px;width:117px;height:202px">
+        </div>
+        <h3 class="service__title" data-i18n="services.events.title">Local Events</h3>
+        <p class="service__desc service__desc--lg" data-i18n="services.events.desc">Barton vanity itself do in it. Preferd to men it engrossed listening.</p>
+      </article>
+
+      <article class="service service--custom">
+        <div class="service__art">
+          <span class="service__square" style="left:67px;top:87px;--sq:#ffd086"></span>
+          <img src="assets/gear.svg" alt="" style="left:7px;top:37px;width:142px;height:142px">
+        </div>
+        <h3 class="service__title" data-i18n="services.custom.title">Customization</h3>
+        <p class="service__desc service__desc--lg" data-i18n="services.custom.desc">We deliver outsourced<br>aviation services for<br>military customers</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- Top destinations -->
+  <section class="destinations" id="destinations">
+    <p class="eyebrow" data-i18n="dest.eyebrow">Top Selling</p>
+    <h2 class="section-title" data-i18n="dest.title">Top Destinations</h2>
+
+    <div class="destinations__grid" data-reveal>
+      <article class="trip trip--london">
+        <img class="trip__img" src="assets/london.png" alt="London, UK" data-i18n-alt="dest.london">
+        <div class="trip__row">
+          <h3 class="trip__name" data-i18n="dest.london">London, UK</h3>
+          <span class="trip__price">$4.2k</span>
+        </div>
+        <p class="trip__days"><img src="assets/nav-arrow.svg" alt=""><span data-i18n="dest.days12">12 Days Trip</span></p>
+      </article>
+
+      <article class="trip trip--rome">
+        <img class="trip__img" src="assets/rome.png" alt="Rome, Italy" data-i18n-alt="dest.rome">
+        <div class="trip__row">
+          <h3 class="trip__name" data-i18n="dest.rome">Rome, Italty</h3>
+          <span class="trip__price">$5,42k</span>
+        </div>
+        <p class="trip__days"><img src="assets/nav-arrow.svg" alt=""><span data-i18n="dest.days10">10 Days Trip</span></p>
+      </article>
+
+      <article class="trip trip--europe">
+        <img class="trip__img" src="assets/europe.png" alt="Full Europe" data-i18n-alt="dest.europe">
+        <div class="trip__row">
+          <h3 class="trip__name" data-i18n="dest.europe">Full Europe</h3>
+          <span class="trip__price">$15k</span>
+        </div>
+        <p class="trip__days"><img src="assets/nav-arrow.svg" alt=""><span data-i18n="dest.days28">28 Days Trip</span></p>
+      </article>
+    </div>
+  </section>
+
+  <!-- 3 easy steps -->
+  <section class="steps" id="steps">
+    <div class="steps__text">
+      <p class="steps__eyebrow" data-i18n="steps.eyebrow">Easy and Fast</p>
+      <h2 class="steps__title" data-i18n="steps.title">Book Your Next Trip<br>In 3 Easy Steps</h2>
+
+      <ol class="steps__list" data-reveal>
+        <li class="step">
+          <img src="assets/step-destination.svg" width="76" height="67" alt="">
+          <div>
+            <h3 class="step__title" data-i18n="steps.s1.title">Choose Destination</h3>
+            <p class="step__desc" data-i18n="steps.s1.desc">Lorem ipsum dolor sit amet, consectetur<br>adipiscing elit. Urna, tortor tempus.</p>
+          </div>
+        </li>
+        <li class="step">
+          <img src="assets/step-payment.svg" width="75" height="67" alt="">
+          <div>
+            <h3 class="step__title" data-i18n="steps.s2.title">Make Payment</h3>
+            <p class="step__desc" data-i18n="steps.s2.desc">Lorem ipsum dolor sit amet, consectetur<br>adipiscing elit. Urna, tortor tempus.</p>
+          </div>
+        </li>
+        <li class="step">
+          <img src="assets/step-taxi.svg" width="75" height="67" alt="">
+          <div>
+            <h3 class="step__title" data-i18n="steps.s3.title">Reach Airport on Selected Date</h3>
+            <p class="step__desc" data-i18n="steps.s3.desc">Lorem ipsum dolor sit amet, consectetur<br>adipiscing elit. Urna, tortor tempus.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+
+    <div class="steps__art" data-reveal>
+      <img class="steps__stars" src="assets/stars.png" alt="">
+      <article class="trip-card">
+        <img class="trip-card__img" src="assets/greece.png" alt="Trip to Greece" data-i18n-alt="steps.card.title">
+        <h3 class="trip-card__title" data-i18n="steps.card.title">Trip To Greece</h3>
+        <p class="trip-card__meta" data-i18n="steps.card.date">14-29 June</p>
+        <p class="trip-card__meta" data-i18n="steps.card.by">by Robbin joseph</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials" id="testimonials">
+    <p class="testimonials__eyebrow" data-i18n="testimonials.eyebrow">Testimonials</p>
+    <h2 class="testimonials__title" data-i18n="testimonials.title">What people say<br>about Us.</h2>
+    <div class="dots" role="tablist" aria-label="Testimonials">
+      <button class="dot is-active" type="button" aria-label="Slide 1"></button>
+      <button class="dot" type="button" aria-label="Slide 2"></button>
+      <button class="dot" type="button" aria-label="Slide 3"></button>
+    </div>
+  </section>
+
+  <!-- Partners -->
+  <section class="partners" data-reveal>
+    <img src="assets/logo-axon.png" alt="Axon Airlines" style="width:155px;height:154px">
+    <img src="assets/logo-jetstar.png" alt="Jetstar" style="width:206px;height:131px">
+    <div class="partners__featured">
+      <img src="assets/logo-expedia.png" alt="Expedia" style="width:193px;height:193px">
+    </div>
+    <img src="assets/logo-qantas.png" alt="Qantas" style="width:193px;height:38px">
+    <img src="assets/logo-alitalia.png" alt="Alitalia" style="width:112px;height:25px">
+  </section>
+
+  <!-- Subscribe -->
+  <section class="subscribe" id="subscribe">
+    <span class="rings rings--left"><i></i><i></i><i></i></span>
+    <span class="rings rings--right"><i></i><i></i><i></i></span>
+    <h2 class="subscribe__title" data-i18n="subscribe.title">Subscribe to get information, latest news and other<br>interesting offers about Jadoo</h2>
+    <form class="subscribe__form" data-reveal onsubmit="return false">
+      <label class="subscribe__field">
+        <svg width="21" height="18" viewBox="0 0 21 18" fill="none" aria-hidden="true">
+          <rect x="0.8" y="0.8" width="19.4" height="16.4" rx="2" stroke="#39425d" stroke-width="1.6"/>
+          <path d="M5 7.1l5.5 4.4 5.5-4.4" stroke="#39425d" stroke-width="1.6" stroke-linejoin="round"/>
+        </svg>
+        <input type="email" placeholder="Your email" aria-label="Your email" data-i18n-placeholder="subscribe.email" data-i18n-aria="subscribe.email">
+      </label>
+      <button class="subscribe__btn" type="submit" data-i18n="subscribe.btn">Subscribe</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" id="footer">
+    <a class="footer__brand" href="#top">Jadoo.</a>
+
+    <nav class="footer__col">
+      <h4 data-i18n="footer.company">Company</h4>
+      <a href="#testimonials" data-i18n="footer.about">About</a>
+      <a href="#services" data-i18n="footer.careers">Careers</a>
+      <a href="#footer" data-i18n="footer.mobile">Mobile</a>
+    </nav>
+    <nav class="footer__col">
+      <h4 data-i18n="footer.contact">Contact</h4>
+      <a href="#steps" data-i18n="footer.help">Help/FAQ</a>
+      <a href="#testimonials" data-i18n="footer.press">Press</a>
+      <a href="#destinations" data-i18n="footer.affiliates">Affilates</a>
+    </nav>
+    <nav class="footer__col">
+      <h4 data-i18n="footer.more">More</h4>
+      <a href="#destinations" data-i18n="footer.fees">Airlinefees</a>
+      <a href="#services" data-i18n="footer.airline">Airline</a>
+      <a href="#steps" data-i18n="footer.tips">Low fare tips</a>
+    </nav>
+
+    <div class="footer__app">
+      <div class="socials">
+        <a href="#" aria-label="Facebook"><img src="assets/facebook.svg" width="8" height="17" alt=""></a>
+        <a href="https://www.instagram.com/mnstrash_/" target="_blank" rel="noopener" class="socials__dark" aria-label="Instagram"><img src="assets/instagram.svg" width="22" height="22" alt=""></a>
+        <a href="#" aria-label="Twitter"><img src="assets/twitter.svg" width="22" height="18" alt=""></a>
+      </div>
+      <p class="footer__discover" data-i18n="footer.discover">Discover our app</p>
+      <div class="stores">
+        <a href="#" class="store store--google" aria-label="Get it on Google Play">
+          <img src="assets/gplay-icon.svg" width="28" height="28" alt="">
+          <img src="assets/gplay-text.svg" width="74" height="21" alt="">
+        </a>
+        <a href="#" class="store store--apple" aria-label="Available on the Apple Store">
+          <img src="assets/apple-icon.svg" width="18" height="22" alt="">
+          <img src="assets/appstore-text.svg" width="75" height="24" alt="">
+        </a>
+      </div>
+    </div>
+
+    <p class="footer__credits">
+      <span data-i18n="footer.design">Design</span> —
+      <a href="https://www.instagram.com/stellar_.k/" target="_blank" rel="noopener">Stella Kurdova <span class="footer__handle">@stellar_.k</span></a>
+      <span class="footer__sep" aria-hidden="true">·</span>
+      <span data-i18n="footer.dev">Development</span> —
+      <a href="https://www.instagram.com/mnstrash_/" target="_blank" rel="noopener"><span class="footer__handle">@mnstrash_</span></a>
+    </p>
+  </footer>
+
+</div>
+<script src="i18n.js" defer></script>
+<script src="script.js" defer></script>
+</body>
+</html>
