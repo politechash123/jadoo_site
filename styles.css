@@ -828,3 +828,4 @@ html:not([lang="en"]) .subscribe__title { width: 760px; font-size: 30px; line-he
 }
 html:not([lang="en"]) .btn-find { width: auto; min-width: 110px; padding: 0 6px; white-space: nowrap; }
 html[lang="hy"] .steps__title { font-size: 38px; line-height: 50px; }
+html:not([lang="en"]) .header__nav { gap: 14px; }
